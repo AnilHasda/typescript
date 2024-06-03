@@ -9,5 +9,4 @@ let student: Student = {
   greet: function (country){
     return `Hello everyone my name is ${this.name} . I am ${this.age} years old and I am from ${country} . Thank you !`;
   },
-};
- console.log(student.greet("Nepal"));
+}
