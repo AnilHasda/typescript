@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>search user from github</title>
+    <link rel="stylesheet"href="./assets/style/style.css">
 </head>
 <body>
-    <form>
-        <input type="text"placeholder="search user..."autoComplete="off">
-        <button>search</button>
+    <div class="heading"><h3>Search user (github users)</h3></div>
+    <form onsubmit="searchUser(event)">
+        <input type="text"placeholder="search user..."autoComplete="off"class="input"oninput="searchUser(event)">
+        <button type="submit">search</button>
     </form>
-    <script src="./dist/app.js"type="module"></script>
+    <div class="main-container"></div>
+    <script src="./dist/app.js"></script>
 </body>
 </html>
