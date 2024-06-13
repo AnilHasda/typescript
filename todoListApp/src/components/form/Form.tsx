@@ -10,7 +10,7 @@ const Form = () => {
     setItems("");
   };
   return (
-      <div className=" flex justify-center items-center mt-10">
+      <div className=" flex justify-center items-center mt-10 mb-10">
         <form onSubmit={addData}>
           <input
             type="text"
@@ -20,7 +20,7 @@ const Form = () => {
             onChange={(e) => setItems(e.target.value)}
             className="h-[35px] w-[90vw] md:w-[400px] border border-[#adaaaa] outline-none pl-2"
           />
-          <button className="h-[35px] w-[100px] bg-[teal] text-white border border-[teal] ml-1">
+          <button className="h-[35px] w-[100px] bg-[#2d5e5e] text-white border border-[#2d5e5e] ml-1">
             Add Items
           </button>
         </form>

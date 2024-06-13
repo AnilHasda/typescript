@@ -3,7 +3,7 @@ const Header = () => {
     let data=useContextData();
     console.log(data)
   return (
-    <div className="h-10 w-full bg-[blueviolet] grid place-content-center text-white font-bold text-md">
+    <div className="h-[80px] w-full bg-[#2d5e5e] grid place-content-center text-white font-bold text-md">
     Todo list app with Typescript + React
   </div>
   )
